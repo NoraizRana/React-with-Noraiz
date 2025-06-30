@@ -7,7 +7,8 @@ const user = "Think and Code";
 const reactElement = React.createElement(
   'a',
   { href: 'https://google.com', target: "_blank" },
-  'Click me to visit Google'
+  'Click me to visit Google',
+  user
 )
 
 
