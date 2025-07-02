@@ -11,8 +11,15 @@ function App() {
       return counter;
     }
     else {
+      // setCounter(counter + 1);
+      // setCounter(counter + 1);
+      // setCounter(counter + 1);
+      // setCounter(counter + 1);
+      setCounter((prevcounter) => prevcounter + 1); //interview question
+      setCounter((prevcounter) => prevcounter + 1);
+      setCounter((prevcounter) => prevcounter + 1);
+      setCounter((prevcounter) => prevcounter + 1);
 
-      setCounter(counter + 1);
     }
   }
   const reducer = () => {

@@ -1,11 +1,11 @@
 import React from 'react'
 
 function Card({username="Aiz", btntext="Click here"}) {
-    console.log(username)
+    console.log(username, btntext)
     return (
         <>
 
-            <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
+            {/* <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
                 <a href="#">
                     <img class="rounded-t-lg" src="/docs/images/blog/image-1.jpg" alt="" />
                 </a>
@@ -20,6 +20,15 @@ function Card({username="Aiz", btntext="Click here"}) {
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
                         </svg>
                     </a>
+                </div>
+            </div> */}
+
+
+
+
+            <div className='w-full h-screen flex flex-wrap justify-center bg-cyan-400' >
+                <div className='w-full flex flex-wrap bg-slate-500 justify-cneter items-end'>
+                    <button className='w-11 bg-red-600 text-white rounded-full'></button>
                 </div>
             </div>
 
