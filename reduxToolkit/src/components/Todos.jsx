@@ -16,7 +16,7 @@ function Todos() {
             <ul className="list-none">
                 {todos.map((todo) => (
                     <li
-                        className="text-white mt-4 flex justify-between items-center bg-zinc-800 px-4 py-2 rounded"
+                        className="text-white p-1 mt-4 flex justify-between items-center bg-zinc-800 px-4 py-2 rounded"
                         key={todo.id}
                     >
                         <div className='text-white'>{todo.text}</div>
