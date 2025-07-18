@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-     <h1>AoA from Aiz. I am here bringing the weight of my griefs</h1>
+     <h1>AoA from Aiz. I am here learning Advanced Concepts in React </h1>
     </>
   )
 }
