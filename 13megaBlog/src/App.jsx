@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-     <h1>AoA from Aiz. I am here learning Advanced Concepts in React </h1>
+     <h1 className='p-4 m-2'>AoA from Aiz. I am here waiting for my death or life in my life's hands </h1>
     </>
   )
 }
