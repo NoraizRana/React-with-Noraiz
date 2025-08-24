@@ -2,7 +2,7 @@ import React from 'react'
 
 function Logo({width : '100px'}) {
     return (
-       <div>Sample Logo</div>
+       <div>This is a smaple logo</div>
     )
 }
 
